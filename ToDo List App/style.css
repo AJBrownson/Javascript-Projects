@@ -1,0 +1,222 @@
+@import url(https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css);
+
+
+html, body {
+  height: 100%;
+  width: 100%;
+}
+
+
+
+body {
+  background: #00B4DB;
+  background: -webkit-linear-gradient(to right, #0083B0, #00B4DB); 
+  background: linear-gradient(to right, #0083B0, #00B4DB);
+  font-family: cursive;
+  text-transform: capitalize;
+  text-align: center;
+}
+
+
+
+h1, .textInput {
+  color: white;
+  padding: 100px;
+  outline: none;
+}
+
+
+
+
+p {
+  margin-right: 40px;
+  color: white;
+  text-decoration: dotted;
+  text-transform: capitalize;
+  font-size: large;
+  font-weight: bold;
+}
+
+
+
+
+
+.textInput input[type="text"] {
+  width: 100%;
+  max-width: 200px;
+  margin-left: 0px;
+  padding: 10px;
+  padding-left: 5px;
+  outline: none;
+  border: none;
+  text-indent: 10px;
+}
+
+
+
+/**********************************/
+/* Removes the underlines in links */
+/************************************/
+
+a {
+    text-decoration: none;
+}
+
+/**********************************/
+/*    That's all it does fam!      */
+/************************************/
+
+
+
+
+/************************************/
+/*           Action Keys             */
+/**************************************/
+
+.action_key {
+  font-size: 20px;
+  font-weight: 900;
+  display: flex;
+  justify-content: space-between;
+}
+
+
+span {
+  color: white;
+}
+
+/************************************/
+/*     End of Action Keys Styling    */
+/**************************************/
+
+
+
+
+
+
+/*************************************/
+/*   Styling for the todo textbox     */
+/***************************************/
+.todo {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  min-width: 30%;
+  height: 50px;
+  padding-left: 5px;
+  background: white;
+  color: black;
+  margin: 15px;
+  padding-top: 0;
+  padding-bottom: 0;
+}
+
+
+
+.todo-list{
+  margin-right: 80px;
+  display: inline-block;
+  width: 100%;
+  max-width: 300px;
+  list-style: none;
+  position: relative;
+}
+
+
+
+.fa-trash {
+  color: black;
+   pointer-events: none;
+}
+
+
+/*************************************/
+/*    End of todo textbox styling     */
+/***************************************/
+
+
+
+
+/***********************************/
+/*             Buttons              */
+/*************************************/
+
+.main_btn, .button {
+    background-color: #ffff00;
+    border: greenyellow;
+    border-radius: 20px;
+    transition-duration: 0.4s;
+}
+
+
+.main_btn {
+    padding: 20px 50px;
+    font-size:x-large;
+    width: fit-content;
+}
+
+
+.main_btn:hover {
+    background-color: greenyellow;
+}
+
+
+.main_btn:active {
+    background-color: greenyellow;
+    box-shadow: 0 5px greenyellow;
+    transform: translateY(2px);
+}
+
+
+
+.button {
+    /*padding: 2px 20px;*/
+  font-size: large;
+  color: black;
+}
+
+
+.button:hover {
+  background-color: greenyellow;
+  cursor: pointer;
+}
+
+
+.button:active {
+  background-color: greenyellow;
+  box-shadow: 0 5px greenyellow;
+  transform: translateY(2px);
+}
+
+
+.trash_btn {
+  padding: 15px;
+  outline: none;
+  border: none;
+  transition: all 0.3s ease;
+}
+
+
+.trash_btn:hover {
+  background: red;
+  cursor: pointer;
+}
+
+
+.trash_btn:hover .fa-trash {
+  color: white;
+}
+
+/**************************************/
+/*       End of button styling        */
+/***************************************/
+
+
+footer {
+  color: white;
+  position: absolute;
+  bottom: 0%;
+  width: 100%;
+  height: 2.5rem;
+  text-transform: uppercase;
+}

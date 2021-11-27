@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="new.js"></script>
+</head>
+<body>
+
+
+    <p>Choose your vehicle</p>
+
+    <div>
+        <input type="checkbox" id="bike" name="vehicle" value="bike" checked>
+        <label for="bike">Bike</label>
+    </div>
+
+
+    <script>
+        document.getElementById ("toggle").onclick = function() {
+            const checkboxes = document.querySelectorAll ("input [type='checkbox']");
+            for (const checkbox of checkboxes) {
+                checkbox.checked = !
+                checkbox.checked;
+            }
+        }
+    </script>
+
+
+</body>
+</html>

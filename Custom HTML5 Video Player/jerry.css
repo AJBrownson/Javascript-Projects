@@ -1,0 +1,117 @@
+
+        *{
+            margin: 0;
+            padding: 0;
+            /* box-sizing: border-box; */
+        }
+
+        html , body{
+            width: 100%;
+            height: 100%;
+        }
+
+        body{
+            background-image: linear-gradient(to right , #FEC0CE ,#E3879E);
+            margin: 0 auto;
+            text-align: center;
+            color: white;
+            font-family: 'Roboto Mono', monospace;
+            
+        }
+        header{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 20%;
+            font-size: 50px;
+        }
+
+
+        .input-section{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 15%;
+            /* background: white; */
+        }
+
+
+
+        .input-section input[type="text"]{
+            width: 60%;
+            max-width: 300px;
+            padding: 10px;
+            outline: none;
+            border: none;
+            text-indent: 10px;
+        }
+
+
+
+        .input-section button{
+            padding: 10px;
+            outline: none;
+            border: none;
+            transition: all 0.3s ease;
+        }
+        /* .fa-plus-square{
+            color: white;
+        } */
+
+
+        .input-section button:hover{
+            background: #6b2033;
+            cursor: pointer;
+        }
+
+
+        .input-section button:hover .fa-plus-square{
+            color: white;
+        }
+
+        
+        .todo{
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            min-width: 30%;
+            height: 50px;
+            padding-left: 10px;
+            background: white;
+            color: black;
+            margin: 15px;
+            padding-top: 0;
+            padding-bottom: 0;
+        }
+
+
+        .todo-list{
+            display: inline-block;
+            width: 60%;
+            max-width: 350px;
+            list-style: none;
+            position: relative;
+        }
+
+
+        .fa-trash{
+            
+            color: black;
+            pointer-events: none;
+        }
+
+        
+        .trash-btn{
+            padding: 15px;
+            outline: none;
+            border: none;
+            transition: all 0.3s ease;
+        }
+        .trash-btn:hover{
+            background: #6b2033;
+            cursor: pointer;
+        }
+        .trash-btn:hover .fa-trash{
+            color: white;
+        }
+        
