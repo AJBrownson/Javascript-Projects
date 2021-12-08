@@ -1,0 +1,163 @@
+body {
+    background: #00B4DB;
+    background: -webkit-linear-gradient(to right, #0083B0, #00B4DB);
+    background: linear-gradient(to right, #0083B0, #00B4DB);
+    text-align: center;
+}
+
+
+
+/*************************************/
+/*      The whole bloody container    */
+/***************************************/
+
+.container {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+/*************************************/
+/*      The whole bloody container    */
+/***************************************/
+
+
+
+
+
+
+
+
+
+/*****************************************/
+/*                The Header              */
+/*******************************************/
+
+h1 {
+    font-family: 'Proxima Nova' !important;
+    color: beige;
+    font-weight: bolder;
+}
+
+/******************************************/
+/*             End of Header               */
+/*******************************************/
+
+
+
+
+
+
+
+/*************************************/
+/*       Styling for the Quotes       */
+/***************************************/
+
+#quoteDisplay {
+    color: white;
+    font-weight: 900;
+    font-style: italic;
+    font-size:large;
+    padding-bottom: 50px;
+}
+
+/*************************************/
+/*             Unquote                */
+/***************************************/
+
+
+
+
+
+/****************************************/
+/*        Styling for the Buttons        */
+/*****************************************/
+
+.buttons {
+    display: block;
+    align-items: center;
+    margin-top: 9px;
+}
+
+
+.twitter-btn {
+    font-size: 15px;
+    font-weight: 900;
+    background-color: rgb(189, 235, 253);
+    padding: 20px 30px;
+    border: #00B4DB;
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+
+.twitter-btn:hover {
+    background-color: #026be2b6;
+}
+
+
+.twitter-btn:active {
+    background-color: #026be2b6;
+    transform: translateY(2px);
+}
+
+
+
+#getQuote {
+    font-size: 15px;
+    font-weight: 900;
+    background-color: rgb(189, 235, 253);
+    margin-top: 9px;
+    padding: 20px 20px;
+    border: white;
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+
+#getQuote:hover {
+    background-color: #026be2b6;
+}
+
+
+#getQuote:active {
+    background-color: #026be2b6;
+    transform: translateY(2px);
+}
+
+
+/****************************************/
+/*        End of Buttons styling         */
+/*****************************************/
+
+
+
+
+
+
+
+
+/*************************************/
+/*      Styling for the footer        */
+/***************************************/
+
+footer {
+    font-family: 'Nunito' sans-serif;
+    font-size: large;
+    position: absolute;
+    color: white;
+    bottom: 0%;
+    width: 100%;
+    height: 1.5rem;
+    text-transform: capitalize;
+}
+
+span {
+    color: rgb(0, 47, 255);
+    font-size: x-large;
+}
+
+/*************************************/
+/*       End of Footer Styling        */
+/***************************************/
