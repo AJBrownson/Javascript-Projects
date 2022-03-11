@@ -1,0 +1,40 @@
+{
+  "squadName" : "Super Hero Squad",
+  "homeTown" : "Liberty City",
+  "formed" : 2020,
+  "secretBase" : "Macham Tower",
+  "active" : true,
+  "members" : [
+    {
+      "name" : "Minuscle",
+      "age" : 29,
+      "secretIdentity" : "Danny Nukas",
+      "powers" : [
+        "Radiation resistance",
+        "Turning tiny",
+        "Radiation blast"
+      ]
+    },
+    {
+      "name" : "Lady Banshee",
+      "age" : 39,
+      "secretIdentity" : "June Wilson",
+      "powers" : [
+        "Million tonne punch",
+        "Damage resistance",
+        "Superhuman reflexes"
+      ]
+    },
+    {
+      "name" : "Fern",
+      "age" : 29,
+      "secretIdentity" : "Leo Lourdes",
+      "powers" : [
+        "Heat Immunity",
+        "Inferno",
+        "Teleportation",
+        "Interdimensional travel"
+      ]
+    }
+  ]
+}
